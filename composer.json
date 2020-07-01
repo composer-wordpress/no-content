@@ -1,0 +1,44 @@
+{
+    "name": "composer-wordpress/no-content",
+    "type": "wordpress-core",
+    "description": "WordPress is web software you can use to create a beautiful website or blog.",
+    "keywords": [
+        "wordpress",
+        "blog",
+        "cms"
+    ],
+    "homepage": "https://wordpress.org/",
+    "version": "4.9.13",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "WordPress Community",
+            "homepage": "https://wordpress.org/about/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "roots/wordpress-core-installer": ">=1.0.0"
+    },
+    "provide": {
+        "wordpress/core-implementation": "4.9.13"
+    },
+    "support": {
+        "issues": "https://core.trac.wordpress.org/",
+        "forum": "https://wordpress.org/support/",
+        "wiki": "https://codex.wordpress.org/",
+        "irc": "irc://irc.freenode.net/wordpress",
+        "source": "https://core.trac.wordpress.org/browser",
+        "docs": "https://developer.wordpress.org/",
+        "rss": "https://wordpress.org/news/feed/"
+    },
+    "dist": {
+        "url": "https://downloads.wordpress.org/release/wordpress-4.9.13-no-content.zip",
+        "type": "zip"
+    },
+    "source": {
+        "url": "git://develop.git.wordpress.org/wordpress.git",
+        "type": "git",
+        "reference": "4.9.13"
+    }
+}
