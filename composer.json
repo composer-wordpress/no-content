@@ -8,7 +8,7 @@
         "cms"
     ],
     "homepage": "https://wordpress.org/",
-    "version": "5.1.1",
+    "version": "dev-master",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
