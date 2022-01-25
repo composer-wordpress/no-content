@@ -17,11 +17,11 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
-        "roots/wordpress-core-installer": "^1.0"
+        "php": ">= 5.6.20",
+        "roots/wordpress-core-installer": ">= 1.0"
     },
     "provide": {
-        "wordpress/core-implementation": "dev-master"
+        "wordpress/core-implementation": "dev-trunk"
     },
     "suggest": {
         "ext-curl": "Performs remote request operations.",
